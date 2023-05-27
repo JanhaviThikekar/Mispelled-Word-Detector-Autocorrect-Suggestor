@@ -42,7 +42,7 @@ int main()
     printf(">> Project By : Aditya Raul(142203016), Rutuja Ingale(142203008), and Janhavi Thikekar(142203009) \n");
     printf("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\n\n");
     printf("\t\t||=================================================================================||\n");
-    printf("\t\t||             WELCOME TO MIS-SPELLED DETECTOR AND AUTOCORRECT SUGGESTER          ||\n");
+    printf("\t\t||             WELCOME TO MIS-SPELLED DETECTOR AND AUTOCORRECT SUGGESTER           ||\n");
     printf("\t\t||=================================================================================||\n\n");
 
     fmain = fopen("words.txt", "r");
@@ -52,7 +52,7 @@ int main()
     }
     fclose(fmain);
     char filename[MAX_FILENAME_LENGTH] ;
-    printf(">> Enter the file name (in txt form): ");
+    printf(">> Enter the file name (in .txt form): ");
     scanf("%s", filename);
     FILE *file = fopen(filename, "r");
     if (file == NULL)
@@ -72,14 +72,14 @@ int main()
     }
     do {
     printf("\n\n");
-    printf("\n\t\t1. Find Incorrect And Autocorrect Sugesstion\n");
+    printf("\n\t\t1. Find Incorrect And Autocorrect Suggestion\n");
     printf("\n\t\t2. Add Word in File\n");
     printf("\n\t\t3. Find and Replace Incorrect Words\n");
     printf("\n\t\t4. Exit\n");
     printf("\n\n>> Enter your choice: ");
     scanf("%d", &choice);
     printf("\n");
-    printf("\n\n Your chioce is : %d\n\n ",choice);   
+    printf("\n\n Your choice is : %d\n\n ",choice);   
     // switch (choice)
     // {
     // case 1:
@@ -164,7 +164,7 @@ case 1: {
 
             if (count == 0) {
                 printf("\t ________________________________________________________\n");
-                printf("\t|           Suggestion of a word not found !!            |\n");
+                printf("\t|           Suggestion of the word not found !!            |\n");
                 printf("\t|________________________________________________________|\n\n");
             }
             count++;
@@ -211,9 +211,9 @@ case 1: {
                 {
                 printf("\n");
                 printf(" ____________________________________________\n");
-                printf("|              Word already exist !!         |\n");
+                printf("|              Word already exists !!         |\n");
                 printf("|____________________________________________|\n");    
-                printf("\nWord already exist !!\n\n");
+                printf("\nWord already exists !!\n\n");
                 }
                 //fclose(fmain);
             }
@@ -224,7 +224,7 @@ case 1: {
             printf("\n");
             printf("\n\n");
             printf("\t||=========================================================================||\n") ;
-            printf("\t||                          THANKS FOR VISTING                             ||\n");
+            printf("\t||                          THANKS FOR VISITING                             ||\n");
             printf("\t||=========================================================================||\n");
             printf("\nProject Guide: Prof. Ashwini Matange\n");
             printf("\n\n\n");  
@@ -252,7 +252,7 @@ case 1: {
             printf("\n");
             printf("\n\n");
             printf("\t||=========================================================================||\n");
-            printf("\t||                          THANKS FOR VISITING                             ||\n");
+            printf("\t||                          THANKS FOR VISITING                            ||\n");
             printf("\t||=========================================================================||\n");
             printf("\nProject Guide: Prof. Ashwini Matange\n");
             printf("\n\n\n");
